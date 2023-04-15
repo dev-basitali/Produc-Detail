@@ -1,5 +1,5 @@
 input.my-counter {
-    width: 55px;
+    width: 64px;
     outline: none;
     border: none;
 }
@@ -13,6 +13,10 @@ input.my-counter {
     border: none;
     border-radius: 25px;
     width: 70px;
+}
+
+.pink-btn {
+    border: 1px solid black;
 }
 
 .cart-btn {
@@ -32,4 +36,9 @@ input.my-counter {
 .product-img {
     width: 100%;
     height: 90%;
+}
+
+.counter-grp {
+    width: 130px;
+    border: 1px solid black;
 }

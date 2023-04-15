@@ -17,14 +17,14 @@ export const Productdetail = () => {
                             <p className='fs-7'>CARTINGTOYS.PK</p>
                             <p className='fs-1'>Electric Baby Nail Trimer</p>
                             <h5 className='mb-1' >
-                                <s className='ms-2'>Rs. 50000.00 PKR</s>
+                                <s className=' ms-2'>Rs. 50000.00 PKR</s>
                                 &nbsp;Rs . 25000.00 PKR
                                 <span className="badge bg-secondary ms-2 bg-danger">Sale</span>
                             </h5>
                             <div className='mt-3'>
                                 <p htmlFor="">Color</p>
                                 <button className='color bg-dark text-light p-2'>Blue</button>
-                                <button className='color p-2'>Pink</button>
+                                <button className='color pink-btn ms-2 bg-light p-2'>Pink</button>
                             </div>
                             <p className='mt-3'>Quantity</p>
                             <div className="counter-grp input-group  mb-3 ">
@@ -35,7 +35,7 @@ export const Productdetail = () => {
 
 
                             <button type='button' className="cart-btn p-2 bg-light">Add to Cart</button>
-                            <button type='button' className="buy-btn p-2 bg-dark text-light ms-2 ms-sm-0 ms-lg-2">Buy it Now</button>
+                            <button type='button' className="buy-btn p-2 bg-dark text-light mt-2 mt-lg-0 ms-sm-0 ms-lg-2">Buy it Now</button>
                             <div className='mt-4'>
 
                                 <h4>Product Description</h4>
